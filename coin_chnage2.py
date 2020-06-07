@@ -34,7 +34,11 @@ the answer is guaranteed to fit into signed 32-bit integer
 
 """
 
+
+
+# Explanation
 """
+
 Let dp_sum[i][j] be a number of ways to represent amount i such that we use only first j coins. We initialize the first column of this table with 1, because we can say there is one way to get amount = 0, using first j coins: do not take any coins.
 To find dp_sum[i][j] we need to look at the last coin taken, it consists of two terms:
 
