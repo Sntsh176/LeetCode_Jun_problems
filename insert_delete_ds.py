@@ -68,7 +68,9 @@ class RandomizedSet:
         """
         Get a random element from the set.
         """
+        # Utilizing the random in built module of python
         return random.choice(self.list_ds)
+        
         
 
 
