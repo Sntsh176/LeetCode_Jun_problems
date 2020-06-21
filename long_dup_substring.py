@@ -66,7 +66,7 @@ class Solution:
         
         # initializing the values for Robin-Karp Algo
         res = 0
-        q = (2 << 63) - 1
+        q = (1 << 63) - 1
         # just to get mod as a higher num needed as per algo
         
         # applying the Binary Search
