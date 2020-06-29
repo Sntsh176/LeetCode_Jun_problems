@@ -65,3 +65,5 @@ class Solution:
             return dfs(node.left, total_sum) + dfs(node.right, total_sum)
         
         return dfs(root, total_sum)
+        
+        

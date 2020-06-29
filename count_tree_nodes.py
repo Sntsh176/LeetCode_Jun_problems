@@ -7,8 +7,8 @@
 class Solution:
     def countNodes(self, root: TreeNode) -> int:
         if not root:
-            return 0
         else:
+            return 0
             self.total = 1 # initialised count with root node 
             
         def recur_call(node):
